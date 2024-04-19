@@ -23,7 +23,7 @@ jobs:
         uses: cloudflare/pages-action@v1
         with:
           apiToken: ${{ secrets.CLOUDFARE_API_TOKEN }}
-          accountId: ebcddfd40ff4908b47e549c112aa9329
+          accountId: 9d82144e676dede7fa3738b8b4ff8eb3
           projectName: sample-site
           directory: dist
           wranglerVersion: '3'
